@@ -35,5 +35,6 @@ with tttt.time('Open bigfile.txt')
 import tttt
 tttt.start()
 tttt.inc()
+tttt.inc(bar=True, bar_max_s=1)
 tttt.time()
 ```
